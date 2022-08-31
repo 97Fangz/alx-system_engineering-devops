@@ -1,1 +1,1 @@
-list
+change to home directory
