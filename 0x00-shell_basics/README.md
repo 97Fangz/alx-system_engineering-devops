@@ -1,1 +1,1 @@
-symbolic link
+copy all html files-current to parent dir
