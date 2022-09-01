@@ -1,1 +1,2 @@
-clean emacs
+#!/bin/bash
+rm *~
