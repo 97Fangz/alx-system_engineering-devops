@@ -1,1 +1,1 @@
-Change group owner
+individual-group permission
