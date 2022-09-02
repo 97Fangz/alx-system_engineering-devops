@@ -1,1 +1,1 @@
-individual-group permission
+Symbolic links
