@@ -1,1 +1,1 @@
-Execute permission to all dir
+Permission 751 to the working dir
