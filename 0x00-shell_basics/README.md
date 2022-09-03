@@ -1,1 +1,1 @@
-dir content display
+Display contents of a dir
