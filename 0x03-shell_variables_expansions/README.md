@@ -1,1 +1,1 @@
-Print script user
+Add to path
