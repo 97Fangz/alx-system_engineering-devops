@@ -1,1 +1,1 @@
-Display lines
+Dispay lines in/bin
