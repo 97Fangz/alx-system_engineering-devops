@@ -1,1 +1,1 @@
-Alias
+Print script user
