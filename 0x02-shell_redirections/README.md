@@ -1,1 +1,1 @@
-Delete js
+Directories count
