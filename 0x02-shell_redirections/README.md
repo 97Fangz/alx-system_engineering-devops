@@ -1,1 +1,1 @@
-hide
+Starting letter
