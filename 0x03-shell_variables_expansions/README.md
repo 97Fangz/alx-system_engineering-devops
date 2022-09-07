@@ -1,1 +1,1 @@
-Variable school
+global variable
