@@ -1,1 +1,1 @@
-exponent
+Result of
