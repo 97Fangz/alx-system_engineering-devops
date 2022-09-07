@@ -1,1 +1,1 @@
-list local variables
+Variable school
