@@ -1,1 +1,1 @@
-Result of
+Binary to decimal
