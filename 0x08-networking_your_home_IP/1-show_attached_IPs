@@ -1,0 +1,4 @@
+#!/usr/bin/env bash
+# displays all active IPv4 on the machine it is executed on
+
+ifconfig | awk -F "[: ]+" '/ined addr:/ { print $4 }'ifconfig | awk -F "[: ]+" '/ined addr:/ { print $4 }'
