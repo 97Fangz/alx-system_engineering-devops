@@ -3,4 +3,4 @@
 # ~ listening sockets
 # ~ shows the PID ad name of the program to which each socket belongs
 
-netstat -l --program
+netstat -lp
