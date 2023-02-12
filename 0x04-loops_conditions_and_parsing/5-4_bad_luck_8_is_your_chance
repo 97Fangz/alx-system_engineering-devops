@@ -2,17 +2,15 @@
 # writing a script that loops 1 to 10 having iterations in the middle using
 # while loop, if, elif and else statements
 
-a=1
-while [ $a -eq 11 ]
+count=1
+while [ $count -ne 11 ]
 do
-	if [ $a = 4 ]
-	then
-		echo "bad luck"
-	elif [ $a = 8 ]
-	then
-		echo "good luck"
-	else
-		echo "Best School"
-	fi
-	((a++))
+    if [ $count -eq 4 ]; then
+	echo "bad luck"
+    elif [ $count -eq 8 ]; then
+	echo "good luck"
+    else
+	echo "Best School"
+    fi
+    ((count++))
 done
