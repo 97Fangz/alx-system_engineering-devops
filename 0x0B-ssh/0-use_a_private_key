@@ -2,4 +2,7 @@
 
 # connects to a server using ssh
 
-ssh -i ~/.ssh/school ubuntu@100.26.49.111
+SERVER=54.160.104.211
+PRIVATE_KEY=~/.ssh/school
+USERNAME=ubuntu
+ssh -i ~/.ssh/school ubuntu@54.160.104.211
