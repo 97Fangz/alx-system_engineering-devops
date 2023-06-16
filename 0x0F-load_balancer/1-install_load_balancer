@@ -12,8 +12,8 @@ frontend brianlive.tech
 
 backend web_servers
         balance roundrobin
-        server web-01 18.233.64.102-web-01:80
-        server web-02 100.26.177.39-web-02:80
+        server web-01 18.233.64.102:80
+        server web-02 100.26.177.39:80
 ' | sudo tee /etc/haproxy/haproxy.cfg >/dev/null
 
 # Restart HAProxy service
