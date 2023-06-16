@@ -1,4 +1,4 @@
-[200~#!/usr/bin/env bash
+#!/usr/bin/env bash
 # Configures load balancer
 
 # Update package repository
@@ -30,8 +30,8 @@ frontend web-servers
 
 backend app-servers
     balance roundrobin
-    server 61466-web-01 54.90.55.176:80 check
-    server 61466-web-02 54.144.155.28:80 check" >> /etc/haproxy/haproxy.cfg
+    server 61466-web-01 18.233.64.102:80 check
+    server 61466-web-02 100.26.177.39:80 check" >> /etc/haproxy/haproxy.cfg
 
 # Enable HAproxy to be managed via an init script
 systemctl enable haproxy
