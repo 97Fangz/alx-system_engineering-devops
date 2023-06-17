@@ -9,8 +9,8 @@ DNS_info () {
 if [[ $# == 1 ]]; then
     subdomains=('www' 'lb-01' 'web-01' 'web-02')
     for i in "${subdomains[@]}"; do
-	CONCAT="$i.$1"
-	DNS_info $i $CONCAT
+        CONCAT="$i.$1"
+        DNS_info $i $CONCAT
     done
 else
     CONCAT="$2.$1"
