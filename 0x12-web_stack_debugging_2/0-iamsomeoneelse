@@ -1,3 +1,0 @@
-#!/usr/bin/env bash
-# software return as a user
-sudo -u "$1" whoami
