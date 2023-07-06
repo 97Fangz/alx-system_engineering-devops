@@ -5,4 +5,4 @@
 SERVER=35.175.135.195
 PRIVATE_KEY=~/.ssh/school
 USERNAME=ubuntu
-ssh -i ~/.ssh/school ubuntu@35.175.135.195
+ssh -i ~/.ssh/school ubuntu@54.164.1.118
