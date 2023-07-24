@@ -1,4 +1,8 @@
 #!/usr/bin/env bash
 # Kills the file 7-highlander
 
+<<<<<<< HEAD
 kill "$(pgrep -f 7-highlander)"
+=======
+pkill -SIGKILL -f "7-highlander"
+>>>>>>> af476c34fb438090a3e3cdc5e20968258076b720
