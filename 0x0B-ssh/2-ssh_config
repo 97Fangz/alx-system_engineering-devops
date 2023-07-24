@@ -1,0 +1,7 @@
+#!/usr/bin/env bash
+
+Host school
+	Hostname 54.160.104.211
+	User ubuntu
+	Port 22
+	IdentityFile ~/.ssh/school

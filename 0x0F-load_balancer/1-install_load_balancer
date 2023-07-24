@@ -1,0 +1,20 @@
+#!/usr/bin/env bash
+# Configure a new HAProxy as a load balancer
+# Install HAProxy on the server
+apt-get -y update
+apt-get -y install haproxy
+
+# Configure the HAProxy configuration file to distribute requests using a round-robin algorithm
+echo '
+frontend brianlive.tech
+        bind *:80
+        default_backend web_servers
+
+backend web_servers
+        balance roundrobin
+        server web-01 35.175.135.195:80
+        server web-02 54.164.1.118:80
+' | sudo tee /etc/haproxy/haproxy.cfg >/dev/null
+
+# Restart HAProxy service
+service haproxy restart
