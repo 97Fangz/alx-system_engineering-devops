@@ -1,0 +1,30 @@
+server {
+    listen 80 default_server;
+    listen [::]:80 default_server;
+    
+    # Ip of server as domain name
+    server_name 35.175.135.195
+   
+    # HTTP response header
+    add_header X-Served-By 113198-web-01;
+    
+    # Server /airbnb-onepage/ route on AirBnb-clone_v3
+    location = /airbnb-onepage/ {
+        proxy_pass http://127.0.0.1:5000/aibnb-onepage/;
+    }
+    
+    root   /var/www/html;
+    index  index.html index.htm;
+    location /hbnb_static {
+        alias /data/web_static/current;
+        index index.html index.htm;
+    }
+    location /redirect_me {
+        return 301 http://brianlive.tech/;
+    }
+    error_page 404 /404.html;
+    location /404 {
+      root /var/www/html;
+      internal;
+    }
+}
